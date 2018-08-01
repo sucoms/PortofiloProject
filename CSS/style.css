@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 0px;
+}
+
+.logo {
+    overflow: auto;
+}
+
+.skills {
+    font-size: 37px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.story {
+    text-align: center;
+    font-size: 30px;
+}
+
+.cardbody {
+    text-align: center;
+}
+
+.skilltitle {
+    font-size: 30px;
+}
+
+.skillsskills img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footertext {
+    text-align: center;
+}
+
+span {
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #000;
+    clear: both;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    clear: both;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1150px) {
+    .skilltitle {
+        font-size: 20px;
+    }
+    .skilltitle >h6 {
+        font-size: 17px;
+    }
+    .logo {
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 949px) {
+    .skilltitle {
+        font-size: 25px;
+    }
+    .skilltitle {
+        font-size: 18px;
+    }
+    .footertext >h5 {
+        font-size: 17px;
+    }
+    .footertext >h5 {
+        font-size: 20px;
+    }
+    .logo {
+        width: 15%;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 501px) {
+    .footertext >h6 {
+        font-size: 15px;
+    }
+    .footertext >h5 {
+        font-size: 18px;
+    }
+    .logo {
+        margin-bottom: 0px;
+    }
+}
